@@ -143,6 +143,8 @@
 
 					event.stopPropagation();
 					event.preventDefault();
+					// Submit form.
+						$form.submit();
 
 					// Hide message.
 						$message._hide();
